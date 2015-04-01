@@ -1,9 +1,0 @@
-permalink: /posts/:title
-
-gems:
-  - jekyll-sitemap
-
-name: Learn Python
-url: http://github.com/andrewcharlton/learn-python
-description: Python 3 Tutorials and Problem Sets for Beginners
-twitter: andrew_charlton
