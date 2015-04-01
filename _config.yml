@@ -6,7 +6,7 @@ paginate: 8
 description: Python 3 tutorials and problem sets for beginners.
 intro: Python 3 tutorials and problem sets for beginners.
 logo:             logo.png
-disqus_shortname:
+disqus_shortname: python-tutorials
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
 #url:
