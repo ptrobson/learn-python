@@ -1,10 +1,10 @@
-name: White Paper
+name: Learn Python
 markdown: redcarpet
 pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
-description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
+description: Python 3 tutorials and problem sets for beginners.
+intro: Python 3 tutorials and problem sets for beginners.
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com
@@ -13,12 +13,12 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
-  avatar:         <avatar-image-link>
-  email:          <your-email-address>
+  name:           Andrew Charlton
+  avatar:         
+  email:          
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  github:
+  twitter:      andrew_charlton
+  github:        andrewcharlton
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
