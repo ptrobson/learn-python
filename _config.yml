@@ -3,8 +3,8 @@ markdown: redcarpet
 pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
-description: Python 3 tutorials and problem sets for beginners.
-intro: Python 3 tutorials and problem sets for beginners.
+description: Learn Python
+intro: Learn Python
 logo:             logo.png
 disqus_shortname: python-tutorials
 # url: http://gotchacode.com
