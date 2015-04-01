@@ -16,35 +16,40 @@ function (for numerical variables), like so:
 Obviously, this can get a little awkward when we want to create more complex
 strings.  Thankfully, there is a better way.  Strings have a **format** method,
 which will insert variables into the string at certain points indicated by
-curly brackets like **{0}**.  For example:
+curly brackets like **{}**.  For example:
 
 ``` python
     num = 5
     animal = "squirrel"
-    some_string = "There are {0} {1}s.".format(num, animal)
+    some_string = "There are {} {}s.".format(num, animal)
 ```
 
 We have passed the **format** method two variables, the first one will replace
-any instances of **{0}**, while the second will replace any instance of
-**{1}**.
+the first instance of **{}**, the second one will replace the second instance
+of **{}** in the string.
 
-Similarly, if we wanted to create a string that said something like "The cat
-sat on the mat." we could do it by:
-
-``` python
-    subject = "cat"
-    verb = "sat"
-    object = "mat"
-    some_rhyme = "The {0} {1} on the {2}".format(subject, verb, object)
-```
-
-If we would like to use named fields, instead of numbered ones (analogous to
-using a dictionary instead of a list), we can do that instead:
+We may not just want to insert items in that exact order though, or we may want
+to use the variables multiple times. If that is the case, we can number the
+points where we want to insert each item, and the corresponding argument will
+be entered there.  For example:
 
 ``` python
-    x_value = 10
-    y_value = 4
-    coordinates = "The ship is at ({x}, {y})".format(x=x_value, y=y_value)
+    num = 1
+    item = "Justin Bieber"
+    some_string = "{0} {1} is {0} {1} too many!".format(num, item)
 ```
+
+If we would like to use named fields, instead of numbered ones (just like when
+we use a dictionary instead of a list), we can do replace the numbers with
+names:
+
+``` python
+    latitude = 27.2
+    longitude = -69.3
+    coordinates = "The ship is at ({lat}, {long})".format(lat=latitude,
+    long=longitude)
+```
+
+### [Problems](https://github.com/andrewcharlton/learn-python/string-formatting.py)
 
 
