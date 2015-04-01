@@ -50,6 +50,7 @@ names:
     long=longitude)
 ```
 
-### [Problems](https://github.com/andrewcharlton/learn-python/string-formatting.py)
+###
+[Problems](https://raw.githubusercontent.com/andrewcharlton/learn-python/master/problems/string-formatting.py)
 
-
+Click on the link above for problems that involve using these techniques.
