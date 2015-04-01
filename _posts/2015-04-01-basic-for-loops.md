@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basic For Loops
-draft: True
+draft: true
 ---
 
 ### Basics
