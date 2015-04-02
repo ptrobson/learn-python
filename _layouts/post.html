@@ -3,13 +3,16 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 
-<table align="left" style="border: 0px;">
+<table align="left" style="width: 0px; border: 0px;">
 <tr>
 {% for tag in page.tags %}
-    <td><span class="octicon octicon-tag" style="min-width: 16px;"></span><a href="/learn-python/tags#{{ tag }}">{{ tag }}</a></td>
+    <td style="height: 40px; width: 0px; white-space: nowrap; padding-left:
+        0px; "><span class="octicon octicon-tag" style="min-width: 16px;"></span><a href="/learn-python/tags#{{ tag }}">{{ tag }}</a></td>
 {% endfor %}
 </tr>
 </table>
+
+<p> &nbsp; </p>
 
 <div class="post">
 {{ content }}
