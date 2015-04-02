@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Formatting Strings
+tags: Strings
 ---
 
 In the past, when we have wanted to produce strings that contain variables we
