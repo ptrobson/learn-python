@@ -3,15 +3,13 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 
-<ul class="nav">
-    {% for tag in page.tags %}
-    <li><a href="/learn-python/tags#{{ tag }}"><span class="octicon oction-tag"></span>{{ tag }}</a></li>
-    {% endfor %}
-</ul>
-
+<table>
+<tr>
 {% for tag in page.tags %}
-<p> {{ tag }} </p>
+    <td><span class="octicon octicon-tag" style="min-width: 16px;"></span><a ref="/learn-python/tags#{{ tag }}">{{ tag }}</a></td>
 {% endfor %}
+</tr>
+</table>
 
 <div class="post">
 {{ content }}
