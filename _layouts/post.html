@@ -9,6 +9,10 @@ layout: default
     {% endfor %}
 </ul>
 
+{% for tag in post.tags %}
+<p> {{ tag }} </p>
+{% endfor %}
+
 <div class="post">
 {{ content }}
 </div>
