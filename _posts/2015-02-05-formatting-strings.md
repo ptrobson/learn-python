@@ -40,17 +40,15 @@ be entered there.  For example:
 ```
 
 If we would like to use named fields, instead of numbered ones (just like when
-we use a dictionary instead of a list), we can do replace the numbers with
+we use a dictionary instead of a list), we can replace the numbers with
 names:
 
 ``` python
     latitude = 27.2
     longitude = -69.3
-    coordinates = "The ship is at ({lat}, {long})".format(lat=latitude,
-    long=longitude)
+    coords = "Location: ({lat}, {long})".format(lat=latitude, long=longitude)
 ```
 
 ###
 [Problems](https://raw.githubusercontent.com/andrewcharlton/learn-python/master/problems/string-formatting.py)
 
-Click on the link above for problems that involve using these techniques.
