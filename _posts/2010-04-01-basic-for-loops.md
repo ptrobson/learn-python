@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Basic For Loops
-draft: true
+tags: Iteration
 ---
 
 ### Basics
 
 One of the main advantages of using a computer to do anything, is that they
-can repeat tasks again and again quickly and accurately.
+can repeat tasks again and again, quickly and accurately.
 
 If we know how many times we want to repeat something, we can use a **for**
 loop. The basic syntax looks something like this:
@@ -44,4 +44,15 @@ like:
 ```
 
 This code is obviously repeating itself considerably, and is ideal for putting
-in a for loop instead.
+in a for loop instead. When trying to replace code like this, try and identify
+what is changing on each loop - in this case, its the first and last numbers.
+We could replace it with something like:
+
+~~~ python
+
+    for n in range(11):
+        print(n, "x 7 =", n*7)
+
+~~~
+
+
