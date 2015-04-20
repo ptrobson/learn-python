@@ -100,9 +100,9 @@ def html_parse(string):
     on websites.  Given a string of HTML, return an output string stripped of
     all the tags.  Anything enclosed between '<' and '>' should be discarded.
     >>> html_parse("This is some <b>bold text</b>, and <i>italics!</i>")
-    "This is some bold text, and italics!
+    'This is some bold text, and italics!'
     >>> html_parse("<a href=www.google.com>Link to <b>GOOGLE</b></a>")
-    "Link to GOOGLE"
+    'Link to GOOGLE'
     """
 
     return
@@ -116,9 +116,9 @@ def odd_letters(words):
     is odd.
     Create a string composed of all the odd letters in the odd words.
     >>> odd_letters(['This', 'is', 'quite', 'hard'])
-    'hssutad'
+    'sad'
     >>> odd_letters(['Do', 'we', 'need', 'some', 'nesting?'])
-    'oeedoeetn?'
+    'eoe'
     """
 
     return
