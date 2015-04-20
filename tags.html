@@ -16,7 +16,7 @@ title: tags
 <h3 id="{{ tag }}"><span class="octicon octicon-tag" style="min-width:
         16px"></span>{{ tag }}</h3>
   <ul style="list-style-type: none">
-  {% for post in site.tags[tag] %}
+      {% for post in site.tags[tag] | sort 'date' %}
   <li><span class="octicon octicon-flame" style="min-width: 16px"></span><a href="/learn-python{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
