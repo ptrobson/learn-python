@@ -50,7 +50,7 @@ def fizzbuzz_sum(n):
     >>> fizzbuzz_sum(20)
     78
     >>> fizzbuzz_sum(100)
-    4635
+    2318
     """
 
     return
