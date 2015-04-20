@@ -55,9 +55,9 @@ def list_average(numbers):
     """
     Given a list of numbers, return their average (mean), rounded down to the
     nearest integer.
-    >>> list_average(4, 7, 9)
+    >>> list_average([4, 7, 9])
     6
-    >>> list_average(3, 3, 5, 10)
+    >>> list_average([3, 3, 5, 10])
     5
     """
 
