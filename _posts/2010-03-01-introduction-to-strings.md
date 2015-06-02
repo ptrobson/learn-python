@@ -148,3 +148,4 @@ functions to do so:
 
 ~~~
 
+[Problems](https://raw.githubusercontent.com/andrewcharlton/learn-python/master/problems/string_splicing.py)
