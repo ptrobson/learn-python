@@ -1,5 +1,5 @@
 ---
-Layoout: post
+Layout: post
 Title: Introduction
 ---
 
