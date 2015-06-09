@@ -1,6 +1,6 @@
 ---
-Layout: post
-Title: Introduction
+layout: post
+title: Introduction
 ---
 
 This set of tutorials is designed to introduce the python programming language.

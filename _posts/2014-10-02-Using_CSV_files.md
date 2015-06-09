@@ -1,7 +1,7 @@
 ---
-Layout: post
-Title: Using CSV files
-Tags: Files
+layout: post
+title: Using CSV files
+tags: Files
 ---
 
 If you are working with basic textual/numerical data, CSV files are a simple

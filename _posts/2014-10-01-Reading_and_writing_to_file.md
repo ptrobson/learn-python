@@ -1,7 +1,7 @@
 ---
-Layout: post
-Title: Reading and writing to files
-Tags: Files
+layout: post
+title: Reading and writing to files
+tags: Files
 ---
 
 Working with text files is very simple in python.  In this tutorial, I will
